@@ -4,6 +4,7 @@
     <Declaration><![CDATA[PROGRAM MAIN
 VAR
 	bChange : BOOL := TRUE;
+	bAnother : BOOL := FALSE;
 	FinalTest1 : FB_FinalTest;
 END_VAR
 ]]></Declaration>
