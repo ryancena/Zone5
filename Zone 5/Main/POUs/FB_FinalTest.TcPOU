@@ -19,6 +19,15 @@ END_VAR
         <ST><![CDATA[]]></ST>
       </Implementation>
     </Method>
+    <Method Name="FB_Opto22Write" Id="{79f7331f-4009-4dec-8020-ef05673366f1}">
+      <Declaration><![CDATA[METHOD FB_Opto22Write : BOOL
+VAR_INPUT
+END_VAR
+]]></Declaration>
+      <Implementation>
+        <ST><![CDATA[]]></ST>
+      </Implementation>
+    </Method>
     <Method Name="LeakTest" Id="{263c8cfe-7a2f-4231-b3e4-7f002a5e9e71}">
       <Declaration><![CDATA[METHOD PUBLIC LeakTest : BOOL
 VAR_INPUT
