@@ -1,13 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TcPlcObject Version="1.1.0.1">
-  <POU Name="MAIN" Id="{3e384c1b-24f7-4744-81bf-b6f9c0d42fbb}">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.9">
+  <POU Name="MAIN" Id="{3e384c1b-24f7-4744-81bf-b6f9c0d42fbb}" SpecialFunc="None">
     <Declaration><![CDATA[PROGRAM MAIN
 VAR
+	bChange : BOOL := TRUE;
+	
 END_VAR
-]]>
-    </Declaration>
+]]></Declaration>
     <Implementation>
       <ST><![CDATA[]]></ST>
     </Implementation>
+    <LineIds Name="MAIN">
+      <LineId Id="9" Count="0" />
+    </LineIds>
   </POU>
 </TcPlcObject>
